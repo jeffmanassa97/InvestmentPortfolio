@@ -10,4 +10,16 @@ public class MlsController {
     public String index(){
         return "start";
     }
+
+    @RequestMapping("/Investment")
+    public String investment(){
+        return "Investment";
+    }
+
+    @RequestMapping("/AllInvestment")
+    public String allInvestments(){
+        return "AllInvestments";
+    }
+
+
 }
